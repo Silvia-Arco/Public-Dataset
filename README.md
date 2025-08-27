@@ -13,6 +13,8 @@ Logistic regression is a widely used statistical model suitable for binary class
 From the training results, the model performed well overall with a high accuracy of 93% and a precision of 94% for employees who stayed and 88% for those who left. The recall for employees who left was 64%, which means the model missed some actual cases of attrition but still detected many.
 On the test set, the accuracy dropped slightly to 85%. The model maintained strong performance in predicting those who stayed (recall = 94%) but was weaker in identifying employees who left (recall = 39% and precision = 56%). This suggests the model is better at predicting retention than attrition, as classes are imbalanced. 
 
+![Picture info](Images/Picture1.png)
+
 # Conclusion
 Key factors such as salary, work-life balance, and job satisfaction were identified as key factors through data cleaning, exploratory analysis, and visualisation. The model achieved good overall accuracy, offering valuable insights for HR to proactively address retention. 
 However, further improvements could include testing additional modelling techniques (e.g., random forests, gradient boosting) and addressing class imbalance and incorporating more granular or real-time data. Ensuring ongoing monitoring and updating of the model will also enhance its practical utility. 
